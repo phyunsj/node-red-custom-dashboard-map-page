@@ -1,4 +1,4 @@
-# node-red-custom-dashboard
+# Node-Red Custom Dashboard
 
 ## Screen 
 
