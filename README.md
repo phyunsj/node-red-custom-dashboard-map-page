@@ -18,7 +18,7 @@ Inspired by the following examples, build web site using Node-RED `template` nod
 ## In Action
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-dashboard/blob/master/alert_monitor.gif" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-dashboard/blob/master/alert_monitor.gif" width="700px"/>
 </p>
 
 ## Flow
