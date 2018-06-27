@@ -25,4 +25,4 @@
  [Get-API-Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 
-> <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" type="text/javascript"></script>
+`<script async defer src="https://maps.googleapis.com/maps/api/js?key={{{payload.apikey}}}&callback=initMap" type="text/javascript"></script>`
