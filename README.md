@@ -12,6 +12,8 @@
 <img src="https://github.com/phyunsj/node-red-custom-dashboard/blob/master/node-red-dashboard-monitor-site-flow.png" width="600px"/>
 </p>
 
+ [flow.json](https://github.com/phyunsj/node-red-custom-dashboard/blob/master/node-red-dashboard-monitor-site-flow.json)
+
 ## Reference Examples
 
 - [Web Form with Node-RED, CSS/JS/HTML](http://www.internetoflego.com/web-form-node-red-cssjshtml/)
