@@ -6,6 +6,13 @@ Inspired by the following examples, build web site using Node-RED `template` nod
 - [5-minute Signup Forms with Node-RED and Compose](https://www.compose.com/articles/5-minute-signup-with-node-red-and-compose/)
 - [Simple Web page with live data updates via websocket](https://flows.nodered.org/flow/8666510f94ad422e4765)
 
+## Node-RED `template` node
+
+1. msg.payload.script for Javascript
+2. msg.payload.style for CSS style
+3. msg.payload = HTML + CDN links (jquery, bootstrap, google map, etc) + (1) + (2)
+4. (Function Node) msg.payload.apikey  for google map API Key
+
 ## Screen 
 
 <p align="center">
