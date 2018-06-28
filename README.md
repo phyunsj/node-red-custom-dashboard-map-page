@@ -9,11 +9,11 @@ Inspired by the following examples, build web site using Node-RED `template` nod
 ## Node-RED `template` node
 
 1. HTTP GET `/monitor`
-2. (Function Node) msg.payload.apikey for google map API Key
+2. (Function Node) msg.payload.apikey for Google Map API Key
 3. msg.payload.script for Javascript
 4. msg.payload.style for CSS style
-5. msg.payload = HTML template + CDN links (jquery, bootstrap, google map, etc) + (2) + (3) + (4)
-6. msg.payload => HTTP Response 
+5. msg.payload = HTML template + CDN links (jquery, bootstrap, google map, etc) + msg.payload.apikey + msg.payload.script + msg.payload.style
+6. msg.payload => (HTTP Response Node)
 
 ## In Action
 
@@ -38,7 +38,7 @@ Inspired by the following examples, build web site using Node-RED `template` nod
 
 ## [Google Maps Platform](https://cloud.google.com/maps-platform/)
 
- New pricing changes will go into effect starting July 16, 2018. [Get-API-Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+ New pricing changes go into effect starting July 16, 2018. [Get-API-Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 
 `<script async defer src="https://maps.googleapis.com/maps/api/js?key={{{payload.apikey}}}&callback=initMap" type="text/javascript"></script>`
