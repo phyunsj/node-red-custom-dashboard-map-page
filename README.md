@@ -1,19 +1,19 @@
 # Node-Red Custom Dashboard
 
-Inspired by the following examples, build web site using Node-RED `template` node.  
+Inspired by the following examples, build `imaginary monitoring` site using Node-RED `template` node.  
 
 - [Web Form with Node-RED, CSS/JS/HTML](http://www.internetoflego.com/web-form-node-red-cssjshtml/)
 - [5-minute Signup Forms with Node-RED and Compose](https://www.compose.com/articles/5-minute-signup-with-node-red-and-compose/)
 - [Simple Web page with live data updates via websocket](https://flows.nodered.org/flow/8666510f94ad422e4765)
 
-## Node-RED `template` node
+## Node-RED nodes
 
-1. HTTP GET `/monitor`
-2. (Function Node) msg.payload.apikey for Google Map API Key
-3. msg.payload.script for Javascript
-4. msg.payload.style for CSS style
-5. msg.payload = HTML template + CDN links (jquery, bootstrap, google map, etc) + msg.payload.apikey + msg.payload.script + msg.payload.style
-6. msg.payload => (HTTP Response Node)
+1. HTTP GET `/monitor`node
+2. (`function` node) msg.payload.apikey for Google Map API Key
+3. (`template` node) msg.payload.script for Javascript
+4. (`template` node) msg.payload.style for CSS style
+5. (`template` node) msg.payload = HTML template + CDN links (jquery, bootstrap, google map, etc) + msg.payload.apikey + msg.payload.script + msg.payload.style
+6. msg.payload => (HTTP Response node)
 
 ## In Action
 
