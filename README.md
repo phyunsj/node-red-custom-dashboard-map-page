@@ -43,8 +43,12 @@ Inspired by the following examples, build `imaginary monitoring` site using Node
 
 `<script async defer src="https://maps.googleapis.com/maps/api/js?key={{{payload.apikey}}}&callback=initMap" type="text/javascript"></script>`
 
-## `httpStatic` in `settings.js` 
+##  Read files from the local storage
 
-1. Set `httpStatic` to `$HOME/.node_red/dist`. 
-2. Install all packages under `$HOME/.node_red/dist/src` (if CDN is not desirable)
-3. `index.html` pick up from `src` directory instead.
+For example, 
+
+1. Set `httpStatic` in `settings.js` to `$HOME/.node_red/dist`. 
+2. Place `picture.jpg' in `$HOME/.node_red/dist/images` 
+3. `<img src="/images/picture.jpg">` in `index.html`
+
+If CDN options is not desirable, install npm packages under `httpStatic` and adjust `src` attribute.
