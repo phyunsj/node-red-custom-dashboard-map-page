@@ -43,7 +43,7 @@ Inspired by the following examples, build `imaginary monitoring` site using Node
 
 `<script async defer src="https://maps.googleapis.com/maps/api/js?key={{{payload.apikey}}}&callback=initMap" type="text/javascript"></script>`
 
-## httpStatic `settings.js` 
+## `httpStatic` in `settings.js` 
 
 1. Set `httpStatic` to `$HOME/.node_red/dist`. 
 2. Install all packages under `$HOME/.node_red/dist/src` (if CDN is not desirable)
