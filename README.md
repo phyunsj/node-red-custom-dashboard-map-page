@@ -40,6 +40,12 @@ Inspired by the following examples, build `imaginary monitoring` site using Node
 
  New pricing changes go into effect starting July 16, 2018. [Get-API-Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
+Once Google API-Key is available,
+
+In `Function` node,
+
+Assign  `msg.payload.apikey` <- Google Map API Key
+
 In `HTML` template,
 
 `<script async defer src="https://maps.googleapis.com/maps/api/js?key={{{payload.apikey}}}&callback=initMap" type="text/javascript"></script>`
