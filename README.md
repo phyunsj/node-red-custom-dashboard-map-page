@@ -1,6 +1,6 @@
 # Node-Red Custom Dashboard
 
-Inspired by the following examples, build `imaginary monitoring` site using Node-RED `template` node.  
+After reading the following examples, build `imaginary monitoring` site using Node-RED `template` node.  
 
 - [Web Form with Node-RED, CSS/JS/HTML](http://www.internetoflego.com/web-form-node-red-cssjshtml/)
 - [5-minute Signup Forms with Node-RED and Compose](https://www.compose.com/articles/5-minute-signup-with-node-red-and-compose/)
