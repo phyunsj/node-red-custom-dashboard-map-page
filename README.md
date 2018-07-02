@@ -58,4 +58,4 @@ For example,
 2. Place `picture.jpg' in `$HOME/.node_red/dist/images` 
 3. `<img src="/images/picture.jpg">` in `index.html`
 
-If CDN options are not desirable, install npm packages under `httpStatic` and adjust `src` attribute.
+If CDN options are not desirable, use `httpStatic` and adjust `src` attribute.
