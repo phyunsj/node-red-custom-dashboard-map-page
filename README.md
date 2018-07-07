@@ -1,4 +1,4 @@
-# Node-Red Custom Dashboard
+# Node-Red Custom Home Page
 
 Build `imaginary monitoring` site using Node-RED `template` node after reading the following examples.
 
