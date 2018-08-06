@@ -1,4 +1,4 @@
-# Node-Red Custom Dashboard Page + Google Maps
+# Node-RED Custom Dashboard Page + Google Maps
 
 Build `imaginary monitoring` site using Node-RED `template` node after reading the following examples.
 
